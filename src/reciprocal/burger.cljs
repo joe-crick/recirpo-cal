@@ -14,7 +14,7 @@
   (merge show-layout {:left "-700px"}))
 
 (def menu-style
-  {:width            "100%"
+  {:width            "70%"
    :background-color "#efefe3"
    :padding "25px"})
 
