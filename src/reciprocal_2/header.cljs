@@ -1,7 +1,6 @@
 (ns reciprocal-2.header
   (:require
-    [reagent.core :as reagent
-     ]))
+    [reagent.core :as reagent]))
 
 (defn header []
   [:header
