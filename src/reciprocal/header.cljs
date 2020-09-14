@@ -1,4 +1,4 @@
-(ns reciprocal-2.header
+(ns reciprocal.header
   (:require
     [reagent.core :as reagent]))
 

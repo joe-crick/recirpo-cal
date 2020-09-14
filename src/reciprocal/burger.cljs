@@ -1,4 +1,4 @@
-(ns reciprocal-2.burger
+(ns reciprocal.burger
   (:require
     [reagent.core :as reagent
      :refer           [atom]]

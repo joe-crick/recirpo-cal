@@ -1,7 +1,7 @@
-(ns reciprocal-2.core
+(ns reciprocal.core
   (:require
-    [reciprocal-2.header :refer [header]]
-    [reciprocal-2.burger :refer [burger]]
+    [reciprocal.header :refer [header]]
+    [reciprocal.burger :refer [burger]]
     [stylefy.core :as stylefy]
     [reagent.core :as reagent
      :refer           [atom]]

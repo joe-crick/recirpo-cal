@@ -6,8 +6,8 @@
  :builds       {:app {:target     :browser
                       :output-dir "public/js"
                       :asset-path "/js"
-                      :modules    {:app {:entries [reciprocal-2.core]}}
-                      :devtools   {:after-load reciprocal-2.core/mount-root}}}
+                      :modules    {:app {:entries [reciprocal.core]}}
+                      :devtools   {:after-load reciprocal.core/mount-root}}}
 
  :dev-http     {3000 {:root    "public"
                       :handler user/app}}}
