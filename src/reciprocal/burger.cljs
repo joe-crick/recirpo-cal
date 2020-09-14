@@ -14,8 +14,9 @@
   (merge show-layout {:left "-700px"}))
 
 (def menu-style
-  {:width            "33%"
-   :background-color "#efefe3"})
+  {:width            "100%"
+   :background-color "#efefe3"
+   :padding "25px"})
 
 (def icon-style
   {:width "40px"})

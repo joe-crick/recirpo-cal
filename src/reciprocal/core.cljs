@@ -1,8 +1,8 @@
 (ns reciprocal.core
   (:require
     [reciprocal.header :refer [header]]
-    [reciprocal.burger :refer [burger]]
-    [stylefy.core :as stylefy]
+    [stylefy.core :as stylefy
+     :refer           [use-style]]
     [reagent.core :as reagent
      :refer           [atom]]
     [reagent.dom :as rd]))
@@ -16,10 +16,16 @@
 
 (defonce app-state (atom {:text "Hello world!"}))
 
+(def phone-width "414px")
+
+(def responsive-layout
+  {:display        :flex
+   :flex-direction :row
+   ::stylefy/media {{:max-width phone-width} {:flex-direction :column}}})
+
 (defn app []
-  [:div
-   [header]
-   [burger (fn [] [:div [:a {:href "http://www.cnn.com"} "CNN"]])]])
+  [:div (use-style responsive-layout)
+   [header]])
 
 (rd/render [app]
            (. js/document (getElementById "app")))
