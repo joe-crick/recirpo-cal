@@ -1,6 +1,6 @@
 (ns reciprocal.core
   (:require
-    [reciprocal.header :refer [header]]
+    [reciprocal.header.header :refer [header]]
     [stylefy.core :as stylefy
      :refer           [use-style]]
     [reagent.core :as reagent
