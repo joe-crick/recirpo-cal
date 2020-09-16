@@ -17,7 +17,7 @@
   {:flex         "0 1"
    :margin-right "90px"})
 
-(def reciprocal-header-menu
+(def reciprocal-header-menu-display-control
   {:display             :none
    ::stylefy/media      {{:min-width tablet-width} {:display :block}}
    ::stylefy/sub-styles {:list {:padding         "5px"
@@ -40,7 +40,7 @@
    :font-weight     "16px"})
 
 (defn header-link-attrs []
-  (merge (use-style reciprocal-menu-link) (use-sub-style reciprocal-header-menu :list) {:href "http://www.startpage.com"}))
+  (merge (use-style reciprocal-menu-link) (use-sub-style reciprocal-header-menu-display-control :list) {:href "http://www.startpage.com"}))
 
 (def reciprocal-menu-item
   {:padding "5px"})

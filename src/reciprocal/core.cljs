@@ -3,6 +3,7 @@
     [reciprocal.header.header :refer [header]]
     [stylefy.core :as stylefy
      :refer           [use-style]]
+    [reciprocal.global-styles :refer [phone-width]]
     [reagent.core :as reagent
      :refer           [atom]]
     [reagent.dom :as rd]))
@@ -13,8 +14,6 @@
 (enable-console-print!)
 
 (stylefy/init)
-
-(def phone-width "414px")
 
 (def responsive-layout
   {:display        :flex
