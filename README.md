@@ -1,4 +1,4 @@
-![logo](https://raw.githubusercontent.com/recipro-cal/recipro-cal/master/logo.png) Recipro-cal
+![logo](https://raw.githubusercontent.com/joe-crick/recirpo-cal/master/public/images/logo.svg) Recipro-cal
 =======
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/recipro-cal/recipro-cal.svg)](https://greenkeeper.io/)
